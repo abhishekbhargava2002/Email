@@ -1,10 +1,20 @@
 {
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
   "dependencies": {
     "express": "^5.2.1",
     "init": "^0.1.2",
+    "module": "^2.0.0",
     "mongoose": "^9.0.0",
-    "nodemon": "^3.1.11",
     "resend": "^6.5.2",
-    "type": "module"
+    "type": "^2.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
   }
 }
